@@ -1,0 +1,12 @@
+/* App.css */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: sans-serif;
+}
+
+.App {
+  min-height: 100vh; /* optional, ensures it fills full height */
+}
