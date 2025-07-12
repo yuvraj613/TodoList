@@ -9,4 +9,13 @@ body {
 
 .App {
   min-height: 100vh; /* optional, ensures it fills full height */
+  display: flex;
+  flex-direction: column;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 600px) {
+  .App {
+    font-size: 14px;
+  }
 }
